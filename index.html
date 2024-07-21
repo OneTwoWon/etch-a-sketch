@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="body">
+<body>
+    <div class="header">
+        <div class="left">
+            <h1>Etch</h1>
+            <h3>あなたの個人的なグリッド</h3>
+        </div>
+        <div class="right">
+            <button id="resetButton" onclick="reset()">Reset</button>
+            <button id="resetButton" onclick="red()">Red</button>
+            <button id="resetButton" onclick="rgb()">RGB</button>
+            <button id="resetButton" onclick="progressive()">Darkening</button>
+        </div>
+    </div>
     <div id="center">
         <div id="container"></div>
     </div>
+    <div id="input"></div>
     <script src="eas.js"></script>
 </body>
 </html>

@@ -1,13 +1,87 @@
 
+body{
+    background-color: #ffffff;
+    color: #DB0000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.left {
+    display: flex; /* Makes .left a flex container */
+    flex-direction: row; /* Stacks the h1 and h2 vertically */
+    gap: 16px;
+    align-items: baseline;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 16px;
+}
+
+#resetButton{
+    background-color: #ffffff;
+    border: none;
+    color: #DB0000;
+    border: 2px solid red;
+    border-radius: 2px;
+    padding: 6px 8px 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: "Comfortaa", sans-serif;
+    
+  }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    
+    width: 60vw;
+    margin-bottom: 64px;
+
+    font-style: normal;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+  } 
+
 #center{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 64px;
 }
 
 #container {
     display: flex;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     flex-wrap: wrap;
-    border: 1px solid black; /* Optional, for visibility */
+    border:2px solid #DB0000;
+    background-color: white;
+}
+
+.colorred {
+    background-color: #DB0000;
+}
+
+.colorblack {
+    background-color: #000000;
+}
+
+.rgb {
+    background-color: rgb(red, green, blue);
 }
