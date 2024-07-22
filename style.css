@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    height: 100vh;
 }
 
 .left {
