@@ -24,7 +24,7 @@ function createGrid() {
         alert("Enter num < 120 !")
         return
     }
-    if (input.value < 0){
+    else if (input.value < 0){
         alert("Enter positive number !")
         return
     }
